@@ -1,3 +1,5 @@
+import { LayoutStyles } from '@/exports/styles';
+
 export default function Footer() {
-    return <footer></footer>;
+    return <footer className={LayoutStyles.Footer}></footer>;
 }
