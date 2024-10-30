@@ -21,14 +21,20 @@
     gap: 32px;
 }
 
-.NavigationItem {
+.NavigationItem,
+.NavigationItemActive {
     text-decoration: none;
     color: black;
     padding: 8px;
     border-radius: 12px;
 }
 
-.NavigationItem:hover {
+.NavigationItemActive {
+    font-weight: 600;
+}
+
+.NavigationItem:hover,
+.NavigationItemActive:hover {
     cursor: pointer;
     background-color: var(--black-5);
 }

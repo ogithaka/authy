@@ -11,7 +11,7 @@ export default function NavigationItem({
             href={url}
             className={
                 active
-                    ? SharedStyles.NavigationItem
+                    ? SharedStyles.NavigationItemActive
                     : SharedStyles.NavigationItem
             }
         >
