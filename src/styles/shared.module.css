@@ -19,3 +19,15 @@
     align-items: center;
     justify-content: flex-end;
 }
+
+.NavigationItem {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.NavigationItem:hover {
+    cursor: pointer;
+    background-color: var(--black-5);
+}
