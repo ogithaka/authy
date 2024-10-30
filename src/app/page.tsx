@@ -1,10 +1,13 @@
-import { Container, Header } from '@/exports/layout';
+import { Container, Footer, Header, Main } from '@/exports/layout';
 
 export default function Landing() {
     return (
         <>
             <Header />
-            <Container />
+            <Container>
+                <Main />
+                <Footer />
+            </Container>
         </>
     );
 }
