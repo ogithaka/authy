@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { workSans } from '@/exports/fonts';
+import '@/styles/global.css';
 
 export const metadata: Metadata = {
     title: 'Authy',
