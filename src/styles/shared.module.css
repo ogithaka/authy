@@ -32,3 +32,19 @@
     cursor: pointer;
     background-color: var(--black-5);
 }
+
+.Button {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: black;
+    font-weight: 600;
+    border: 2px solid transparent;
+}
+
+.Button:hover {
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+}
