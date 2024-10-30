@@ -1,3 +1,9 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Authy',
+};
+
 export default function RootLayout({
     children,
 }: Readonly<{
