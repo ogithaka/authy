@@ -1,11 +1,19 @@
 import { SharedStyles } from '@/exports/styles';
 import Link from 'next/link';
 
-export default function NavigationItem({ url, name }: NavigationItemProps) {
+export default function NavigationItem({
+    url,
+    name,
+    active,
+}: NavigationItemProps) {
     return (
         <Link
             href={url}
-            className={SharedStyles.NavigationItem}
+            className={
+                active
+                    ? SharedStyles.NavigationItem
+                    : SharedStyles.NavigationItem
+            }
         >
             {name}
         </Link>

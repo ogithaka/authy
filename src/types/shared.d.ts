@@ -4,6 +4,7 @@ declare global {
     interface NavigationItemProps {
         url: string;
         name: string;
+        active: boolean;
     }
     interface NavigationProps {
         children: ReactNode;
